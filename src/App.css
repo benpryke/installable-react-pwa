@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
+:root {
+  --titlebar-area-x: 0;
+  --titlebar-area-y: 0;
+  --titlebar-area-width: 100%;
+  --titlebar-area-height: 32px;
 }
 
 .App-logo {

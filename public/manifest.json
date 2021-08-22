@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Installable PWA",
+  "name": "Installable React PWA",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64",
       "type": "image/x-icon"
     },
     {
@@ -20,6 +20,17 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#282c34",
+  "background_color": "#282c34",
+  "display_override": ["window-controls-overlay"],
+  "shortcuts": [
+    {
+      "name": "Open Example Shortcut",
+      "short_name": "Example Shortcut",
+      "description": "An example of an app shortcut or task",
+      "url": "/?shortcut=Example%20Shortcut",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "This is an example app demonstrating how to create an installable React PWA fromcreate-react-app"
 }
