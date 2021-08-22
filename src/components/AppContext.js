@@ -1,4 +1,5 @@
 import React from "react";
+
 import { isInstalled } from "../logic/installation";
 
 const AppContext = React.createContext({

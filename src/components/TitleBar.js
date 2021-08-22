@@ -6,7 +6,9 @@ import React from "react";
 
 export default function TitleBar() {
   return (
-    <div class="search" style={{
+    <div
+      class="search"
+      style={{
         // The entire region is draggable
         appRegion: "drag",
         "-webkit-app-region": "drag",
@@ -25,14 +27,19 @@ export default function TitleBar() {
         display: "flex",
         alignItems: "center",
         paddingLeft: "0.5rem",
-    }}>
+      }}
+    >
       <img src="logo192.png" alt="React Logo" width="32" height="32" />
-      <strong style={{
-        paddingLeft: "0.5rem",
-        whiteSpace: "nowrap",
-        overflow: "hidden",
-        textOverflow: "ellipsis",
-      }}>Custom Title Bar</strong>
+      <strong
+        style={{
+          paddingLeft: "0.5rem",
+          whiteSpace: "nowrap",
+          overflow: "hidden",
+          textOverflow: "ellipsis",
+        }}
+      >
+        Custom Title Bar
+      </strong>
     </div>
   );
 }
